@@ -9,9 +9,10 @@ import (
 
 //Approach represents
 //1 -> create a first row if the output 2d array had length = 0
-//2 -> make a empty [] with length = col number and assign 1 and last value to 1
-//3-> loop through the new row and check where values are 0 and assigned those indices with the value for previousRow[sameIndex  ] + previousRow[sameIndex -1 ]
-//4 -> append the new row to the output
+//2 -> make a empty [] make a empty [] with length = col number
+//3 ->  loop through the pervious row in the outPut 2d arr  and assign 1 and last value  of new row to 1
+//4-> loop through the new row and check where values are 0 and assigned those indices with the value for previousRow[sameIndex  ] + previousRow[sameIndex -1 ]
+//5 -> append the new row to the output
 
 func main() {
 

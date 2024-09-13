@@ -5,6 +5,10 @@ import "fmt"
 // Question Input: matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
 // Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
 
+// approach
+//1 -> create a place holder 2d array to save the coordinates of zero
+//2 -> loop through this place holder and make all the row and col corresponding to the coordinate to zero
+
 func main() {
 
 	inputMatrix := [][]int{
